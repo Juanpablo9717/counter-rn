@@ -2,15 +2,17 @@
 import React from 'react';
 import {SafeAreaView} from 'react-native';
 // import {HelloWorld} from './src/presentation/screens/HelloWorld';
-import {CounterScreen} from './src/presentation/screens/CounterScreen';
+// import {CounterScreen} from './src/presentation/screens/CounterScreen';
 import {PaperProvider} from 'react-native-paper';
+import {CounterScreenM3} from './src/presentation/screens/CounterScreenM3';
 
 export const App = () => {
   return (
     <PaperProvider>
       <SafeAreaView style={{flex: 1}}>
         {/* <HelloWorld /> */}
-        <CounterScreen />
+        {/* <CounterScreen /> */}
+        <CounterScreenM3 />
       </SafeAreaView>
     </PaperProvider>
   );
