@@ -9,7 +9,7 @@ export const globalStyles = StyleSheet.create({
   title: {
     fontSize: 80,
     fontWeight: '300',
-    color: '300',
+    color: 'black',
   },
   fab: {
     position: 'absolute',
